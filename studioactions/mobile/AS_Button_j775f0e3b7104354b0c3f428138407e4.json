@@ -1,0 +1,24 @@
+{
+    "AS_Button_j775f0e3b7104354b0c3f428138407e4": {
+        "id": "AS_Button_j775f0e3b7104354b0c3f428138407e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0068998f51e4deba114bbdbd90c8cc5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ae2407621a994233966f8565b7e24d5d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//Invokes function 'initializeFFI'\n\ntry\n{\n  var j=self.view.url.text;\n alert(j);\ncom.mki.samplekonyffi.initializeFFI(\n\t\t/**Function*/ ffiCallback,j);  \n}\ncatch ( e )\n{\n\t if (e instanceof KonyError)\n\t alert(\"A Kony error\");\n\t else (e instanceof EvalError)\n\t alert(\"A JS Eval Eror\");\n}\n\nfunction ffiCallback(data){\n  alert(data)\n}\t",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Username",
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "s3c478c5548b44a08c4748960a3764e3",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_30c2932512294ca78a230b90dd7d1d12",
+        "ide_onEndEditing": "AS_TextField_7d112048a2254a688671626a3154408e"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "focusskin": "s762eb2786324e05a61910cb663141a0",
+    "id": "txtUserNameSline",
+    "ide_onTouchEnd": "AS_TextField_fa66791f5bef4c85b09a4a9d07e9681e",
+    "ide_onTouchStart": "AS_TextField_4eb1475ca4d94a49b764ccd9ccccf865",
+    "info": null,
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextField_0f1d44a4928f4b9e9e6d988f282d229d",
+        "ide_onEndEditing": "AS_TextField_a4116496cb544e3e9bcdd5f32b9c255d",
+        "psp": {
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "f0e726ad19dd4463b33e90de9838bc2d",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "UsrNmLn",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s64d621be65d4f5c9ee3a7d0ae2803d1",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}
